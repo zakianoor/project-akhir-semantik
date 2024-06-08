@@ -1,0 +1,2126 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/athal/ontologies/2024/4/laptop/"
+     xml:base="http://www.semanticweb.org/athal/ontologies/2024/4/laptop/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:laptop="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/athal/ontologies/2024/4/laptop#hasBrand -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#hasBrand">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#isBrandOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/athal/ontologies/2024/4/laptop#hasGPU -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#hasGPU">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#isGPUOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/athal/ontologies/2024/4/laptop#hasOS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#hasOS">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#isOSOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/athal/ontologies/2024/4/laptop#hasProcessor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#hasProcessor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#isProcessorOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/athal/ontologies/2024/4/laptop#hasRAM -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#hasRAM">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#isRAMOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/athal/ontologies/2024/4/laptop#hasStorage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#hasStorage">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#isStorageOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/athal/ontologies/2024/4/laptop#isBrandOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#isBrandOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/athal/ontologies/2024/4/laptop#isGPUOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#isGPUOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/athal/ontologies/2024/4/laptop#isOSOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#isOSOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/athal/ontologies/2024/4/laptop#isProcessorOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#isProcessorOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/athal/ontologies/2024/4/laptop#isRAMOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#isRAMOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/athal/ontologies/2024/4/laptop#isStorageOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#isStorageOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/athal/ontologies/2024/4/laptop#BrandName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#BrandName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPUName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPUName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/athal/ontologies/2024/4/laptop#LaptopModel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#LaptopModel">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/athal/ontologies/2024/4/laptop#LaptopName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#LaptopName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/athal/ontologies/2024/4/laptop#LaptopPrice -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#LaptopPrice">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/athal/ontologies/2024/4/laptop#LaptopType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#LaptopType">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OSName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OSName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/athal/ontologies/2024/4/laptop#ProcessorBrand -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#ProcessorBrand">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/athal/ontologies/2024/4/laptop#ProcessorName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#ProcessorName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAMSize -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAMSize">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAMType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAMType">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/athal/ontologies/2024/4/laptop#StorageSize -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#StorageSize">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/athal/ontologies/2024/4/laptop#StorageType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#StorageType">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop85">
+    <laptop:hasBrand>
+      <laptop:Brand rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1">
+        <laptop:BrandName>ASUS</laptop:BrandName>
+      </laptop:Brand>
+    </laptop:hasBrand>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU35">
+        <laptop:GPUName>AMD Radeon RX Vega 10</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS>
+      <laptop:OS rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1">
+        <laptop:OSName>Windows 11 Home</laptop:OSName>
+      </laptop:OS>
+    </laptop:hasOS>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor46">
+        <laptop:ProcessorBrand>AMD</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Ryzen 7 Quad Core 3700U</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM>
+      <laptop:RAM rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM2">
+        <laptop:RAMSize>16 GB</laptop:RAMSize>
+        <laptop:RAMType>DDR4</laptop:RAMType>
+      </laptop:RAM>
+    </laptop:hasRAM>
+    <laptop:hasStorage>
+      <laptop:Storage rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2">
+        <laptop:StorageSize>512 GB</laptop:StorageSize>
+        <laptop:StorageType>SSD</laptop:StorageType>
+      </laptop:Storage>
+    </laptop:hasStorage>
+    <laptop:LaptopModel>M415DA-EB512WS</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS VivoBook 14 (2021) Ryzen 7 Quad Core 3700U</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop34">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU20">
+        <laptop:GPUName>Intel Integrated intel</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor4">
+        <laptop:ProcessorBrand>Intel</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Core i5 </laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM>
+      <laptop:RAM rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4">
+        <laptop:RAMSize>8 GB</laptop:RAMSize>
+        <laptop:RAMType>DDR4</laptop:RAMType>
+      </laptop:RAM>
+    </laptop:hasRAM>
+    <laptop:hasStorage>
+      <laptop:Storage rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage3">
+        <laptop:StorageSize>256 GB</laptop:StorageSize>
+        <laptop:StorageType>SSD</laptop:StorageType>
+      </laptop:Storage>
+    </laptop:hasStorage>
+    <laptop:LaptopModel>X515JA-BQ511WS</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS Core i5 10th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop73">
+    <laptop:hasBrand>
+      <laptop:Brand rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand4">
+        <laptop:BrandName>DELL</laptop:BrandName>
+      </laptop:Brand>
+    </laptop:hasBrand>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU2">
+        <laptop:GPUName>NVIDIA GeForce RTX 3050</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor19">
+        <laptop:ProcessorBrand>AMD</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Ryzen 5 Hexa Core 5600H</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM2"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>G15-5515</laptop:LaptopModel>
+    <laptop:LaptopName>DELL Ryzen 5 Hexa Core 5600H</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Gaming Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop9">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU7">
+        <laptop:GPUName>NVIDIA GeForce GTX 1650</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor8">
+        <laptop:ProcessorBrand>Intel</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Core i5 i5-10300H</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4"/>
+    <laptop:hasStorage>
+      <laptop:Storage rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage1">
+        <laptop:StorageSize>1 TB</laptop:StorageSize>
+        <laptop:StorageType>SSD</laptop:StorageType>
+      </laptop:Storage>
+    </laptop:hasStorage>
+    <laptop:LaptopModel>FX506LH-HN310W</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS TUF Gaming F15 Core i5 10th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Gaming Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop68">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand4"/>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU33">
+        <laptop:GPUName>AMD Radeon Intgrated</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS>
+      <laptop:OS rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS3">
+        <laptop:OSName>Windows 10 Home</laptop:OSName>
+      </laptop:OS>
+    </laptop:hasOS>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor40">
+        <laptop:ProcessorBrand>AMD</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Ryzen 5 Quad Core Ryzen 5-5625U</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM2"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>Vostro 5625</laptop:LaptopModel>
+    <laptop:LaptopName>DELL Vostro 5000 Series Ryzen 5 Quad Core Ryzen </laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop88">
+    <laptop:hasBrand>
+      <laptop:Brand rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand2">
+        <laptop:BrandName>HP</laptop:BrandName>
+      </laptop:Brand>
+    </laptop:hasBrand>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU9">
+        <laptop:GPUName>AMD Radeon Radeon Graphics</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor34">
+        <laptop:ProcessorBrand>AMD</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Ryzen 5 Hexa Core 5625U</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>15-eh2024AU</laptop:LaptopModel>
+    <laptop:LaptopName>HP Pavilion Ryzen 5 Hexa Core 5625U</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop99">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand2"/>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU23">
+        <laptop:GPUName>Intel Integrated UHD</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor41">
+        <laptop:ProcessorBrand>Intel</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Core i3 1125G4</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>14-dy0207TU</laptop:LaptopModel>
+    <laptop:LaptopName>HP Pavilion x360 Convertible Core i3 11th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop42">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU23"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS3"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor30">
+        <laptop:ProcessorBrand>Intel</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Core i3 1115G4</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage3"/>
+    <laptop:LaptopModel>X515EA-BR312TS</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS Core i3 11th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop49">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU23"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor32">
+        <laptop:ProcessorBrand>Intel</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Core i3 1005G1</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4"/>
+    <laptop:hasStorage>
+      <laptop:Storage rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage5">
+        <laptop:StorageSize></laptop:StorageSize>
+        <laptop:StorageType>HDD</laptop:StorageType>
+      </laptop:Storage>
+    </laptop:hasStorage>
+    <laptop:LaptopModel>X515JA-BQ302W</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS VivoBook 15 Core i3 10th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop72">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand2"/>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU8">
+        <laptop:GPUName>Intel Integrated UHD Graphics</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor41"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>15s-fq2627TU</laptop:LaptopModel>
+    <laptop:LaptopName>HP Core i3 11th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop11">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand4"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU9"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor10">
+        <laptop:ProcessorBrand>AMD</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Athlon Dual Core 3050U</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage3"/>
+    <laptop:LaptopModel>Inspiron 3525</laptop:LaptopModel>
+    <laptop:LaptopName>DELL Inspiron Athlon Dual Core 3050U</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Notebook</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop13">
+    <laptop:hasBrand>
+      <laptop:Brand rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand3">
+        <laptop:BrandName>Lenovo</laptop:BrandName>
+      </laptop:Brand>
+    </laptop:hasBrand>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU11">
+        <laptop:GPUName>AMD Radeon Integrated AMD Radeon Graphics</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS3"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor12">
+        <laptop:ProcessorBrand>AMD</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Ryzen 7 Octa Core R7-5800U</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM2"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>14ITL5</laptop:LaptopModel>
+    <laptop:LaptopName>Lenovo Yoga 7i Ryzen 7 Octa Core R</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19000000</laptop:LaptopPrice>
+    <laptop:LaptopType>2 in 1 Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop44">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand4"/>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU16">
+        <laptop:GPUName>NVIDIA GeForce RTX 3050 Ti</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor22">
+        <laptop:ProcessorBrand>Intel</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Core i7 12700H</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM>
+      <laptop:RAM rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM8">
+        <laptop:RAMSize>16 GB</laptop:RAMSize>
+        <laptop:RAMType>DDR5</laptop:RAMType>
+      </laptop:RAM>
+    </laptop:hasRAM>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage1"/>
+    <laptop:LaptopModel>G15-5521 SE</laptop:LaptopModel>
+    <laptop:LaptopName>DELL G15 Core i7 12th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Gaming Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop83">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU8"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor30"/>
+    <laptop:hasRAM>
+      <laptop:RAM rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM9">
+        <laptop:RAMSize>8 GB</laptop:RAMSize>
+        <laptop:RAMType>LPDDR4X</laptop:RAMType>
+      </laptop:RAM>
+    </laptop:hasRAM>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>TP470EA-EC312WS</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS VivoBook Flip 14 Core i3 11th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10000000</laptop:LaptopPrice>
+    <laptop:LaptopType>2 in 1 Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop36">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU22">
+        <laptop:GPUName>NVIDIA GeForce GTX GTX 1650 4GB Graphics</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS3"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor28">
+        <laptop:ProcessorBrand>AMD</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Ryzen 7 Quad Core </laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>G713IH-HX020T</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS Ryzen 7 Quad Core 10th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Gaming Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop26">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU10">
+        <laptop:GPUName>Intel Integrated Iris Xe</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor22"/>
+    <laptop:hasRAM>
+      <laptop:RAM rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM7">
+        <laptop:RAMSize>16 GB</laptop:RAMSize>
+        <laptop:RAMType>LPDDR5</laptop:RAMType>
+      </laptop:RAM>
+    </laptop:hasRAM>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage1"/>
+    <laptop:LaptopModel>UX5401ZAS-KN711WS</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS Zenbook 14X (2022) Space edition Intel EVO Core i7 12th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop1">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU1">
+        <laptop:GPUName>NVIDIA GeForce RTX 3070 Ti</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor1">
+        <laptop:ProcessorBrand>Intel</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Core i9 12900H</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM>
+      <laptop:RAM rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM1">
+        <laptop:RAMSize>32 GB</laptop:RAMSize>
+        <laptop:RAMType>DDR5</laptop:RAMType>
+      </laptop:RAM>
+    </laptop:hasRAM>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage1"/>
+    <laptop:LaptopModel>G733ZW-LL139WS</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS ROG Strix SCAR 17 Core i9 12th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">46000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Gaming Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop4">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand3"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU2"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor3">
+        <laptop:ProcessorBrand>AMD</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Ryzen 7 Octa Core R7-5800H</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM2"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>15ACH6</laptop:LaptopModel>
+    <laptop:LaptopName>Lenovo IdeaPad Gaming 3i Ryzen 7 Octa Core R</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Gaming Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop12">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand4"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU10"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor11">
+        <laptop:ProcessorBrand>Intel</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Core i5 1135G7</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM>
+      <laptop:RAM rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM5">
+        <laptop:RAMSize>16 GB</laptop:RAMSize>
+        <laptop:RAMType>LPDDR4X</laptop:RAMType>
+      </laptop:RAM>
+    </laptop:hasRAM>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>XPS 9305</laptop:LaptopModel>
+    <laptop:LaptopName>DELL Core i5 11th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">29000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop86">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU23"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor30"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage5"/>
+    <laptop:LaptopModel>X515EA-BR391W</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS VivoBook 15 (2021) Core i3 11th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop5">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand3"/>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU3">
+        <laptop:GPUName>Intel Integrated Intel</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor4"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM2"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>82A300MBIN</laptop:LaptopModel>
+    <laptop:LaptopName>Lenovo Yoga Slim 7 Core i5 11th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop57">
+    <laptop:hasBrand>
+      <laptop:Brand rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand8">
+        <laptop:BrandName>acer</laptop:BrandName>
+      </laptop:Brand>
+    </laptop:hasBrand>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU7"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor35">
+        <laptop:ProcessorBrand>Intel</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Core i5 11400H</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>AN515-57</laptop:LaptopModel>
+    <laptop:LaptopName>acer Nitro 5 Core i5 11th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Gaming Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop54">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU27">
+        <laptop:GPUName>NVIDIA GeForce RTX RTX3050-4G</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS3"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor4"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage1"/>
+    <laptop:LaptopModel>FX516PCZ-HN090T</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS Core i5 11th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Gaming Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop7">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand3"/>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU5">
+        <laptop:GPUName>Intel Integrated Intel HD</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS>
+      <laptop:OS rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS2">
+        <laptop:OSName>Windows 10</laptop:OSName>
+      </laptop:OS>
+    </laptop:hasOS>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor6">
+        <laptop:ProcessorBrand>Intel</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Celeron Dual Core </laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM>
+      <laptop:RAM rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM3">
+        <laptop:RAMSize>4 GB</laptop:RAMSize>
+        <laptop:RAMType>DDR4</laptop:RAMType>
+      </laptop:RAM>
+    </laptop:hasRAM>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage3"/>
+    <laptop:LaptopModel>82C30053IH</laptop:LaptopModel>
+    <laptop:LaptopName>Lenovo Lenovo V15 Celeron Dual Core</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop14">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU12">
+        <laptop:GPUName>NVIDIA GeForce RTX3050- 4GB</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor13">
+        <laptop:ProcessorBrand>AMD</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Ryzen 7 Dual Core </laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM2"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>FA506IC-HN075W</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS Ryzen 7 Dual Core 7th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Gaming Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop48">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU23"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor30"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage3"/>
+    <laptop:LaptopModel>K513EA-L322WS</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS VivoBook Ultra K15 OLED Core i3 11th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop18">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU15">
+        <laptop:GPUName>Intel Integrated Intel® UHD Graphics</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor17">
+        <laptop:ProcessorBrand>Intel</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Core i3 Core i3-1115G4</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage3"/>
+    <laptop:LaptopModel>K513EA-L301WS</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS Vivobook 15 OLED Core i3 11th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop63">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand3"/>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU29">
+        <laptop:GPUName>Intel Integrated INTEL UHD</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS3"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor37">
+        <laptop:ProcessorBrand>Intel</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Core i3 I3-1115G4</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>THINKBOOK 15</laptop:LaptopModel>
+    <laptop:LaptopName>Lenovo THINKBOOK 15 Core i3 11th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Notebook</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop55">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand8"/>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU28">
+        <laptop:GPUName>Intel Integrated UHD Graphics 600</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor20">
+        <laptop:ProcessorBrand>Intel</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Celeron Dual Core N4020</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM3"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage3"/>
+    <laptop:LaptopModel>TMB311-31</laptop:LaptopModel>
+    <laptop:LaptopName>acer Celeron Dual Core</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Notebook</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop93">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand2"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU9"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor34"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>14-EC1003AU</laptop:LaptopModel>
+    <laptop:LaptopName>HP Pavilion Ryzen 5 Hexa Core 5625U</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop77">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU8"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor43">
+        <laptop:ProcessorBrand>Intel</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Celeron Dual Core N4500</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM3"/>
+    <laptop:hasStorage>
+      <laptop:Storage rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage4">
+        <laptop:StorageSize>128 GB</laptop:StorageSize>
+        <laptop:StorageType>SSD</laptop:StorageType>
+      </laptop:Storage>
+    </laptop:hasStorage>
+    <laptop:LaptopModel>BR1100CKA-GJ0722W</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS Celeron Dual Core</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop87">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU23"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor30"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage3"/>
+    <laptop:LaptopModel>X515EA-EJ332WS</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS VivoBook 15 (2021) Core i3 11th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop46">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand4"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU2"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor31">
+        <laptop:ProcessorBrand>Intel</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Core i5 11260H</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>G15-5511</laptop:LaptopModel>
+    <laptop:LaptopName>DELL Core i5 11th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Gaming Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop3">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand2"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU2"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor2">
+        <laptop:ProcessorBrand>AMD</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Ryzen 7 Octa Core 5800H</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM2"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>16-e0351AX</laptop:LaptopModel>
+    <laptop:LaptopName>HP Victus Ryzen 7 Octa Core 5800H</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Gaming Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop94">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand2"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU9"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor34"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>15-eh2018AU</laptop:LaptopModel>
+    <laptop:LaptopName>HP Pavilion Ryzen 5 Hexa Core 5625U</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop75">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU8"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor30"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM9"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage3"/>
+    <laptop:LaptopModel>TP470EA-EC302WS</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS VivoBook Flip 14 Core i3 11th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10000000</laptop:LaptopPrice>
+    <laptop:LaptopType>2 in 1 Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop95">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand4"/>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU37">
+        <laptop:GPUName>Intel Integrated Intel UHD Graphics</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor30"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>3511</laptop:LaptopModel>
+    <laptop:LaptopName>DELL Inspiron 3000 Core i3 11th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop22">
+    <laptop:hasBrand>
+      <laptop:Brand rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand7">
+        <laptop:BrandName>Avita</laptop:BrandName>
+      </laptop:Brand>
+    </laptop:hasBrand>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU8"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor20"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM3"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage4"/>
+    <laptop:LaptopModel>NU14A1INC43PN-MB</laptop:LaptopModel>
+    <laptop:LaptopName>Avita SATUS Celeron Dual Core</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop33">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU19">
+        <laptop:GPUName>NVIDIA GeForce RTX RTX3060-6GB</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor27">
+        <laptop:ProcessorBrand>AMD</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Ryzen 9 Octa Core </laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM2"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>FA506QM-HN124W</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS Ryzen 9 Octa Core 10th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Gaming Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop100">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand2"/>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU40">
+        <laptop:GPUName>Qualcomm Adreno Adreno 618 GPU</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor51">
+        <laptop:ProcessorBrand>Qualcomm</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Snapdragon 7c Gen 2 </laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM9"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage5"/>
+    <laptop:LaptopModel>14-ed0007qu</laptop:LaptopModel>
+    <laptop:LaptopName>HP Snapdragon 7c Gen 2</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop98">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand3"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU2"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor50">
+        <laptop:ProcessorBrand>Intel</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Core i5 11300H</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>15IHU6</laptop:LaptopModel>
+    <laptop:LaptopName>Lenovo IdeaPad Gaming 3 Core i5 11th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Gaming Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop90">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand2"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU8"/>
+    <laptop:hasOS>
+      <laptop:OS rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS5">
+        <laptop:OSName>Chrome</laptop:OSName>
+      </laptop:OS>
+    </laptop:hasOS>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor45">
+        <laptop:ProcessorBrand>Intel</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Celeron Quad Core N4020</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM>
+      <laptop:RAM rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM11">
+        <laptop:RAMSize>4 GB</laptop:RAMSize>
+        <laptop:RAMType>LPDDR4</laptop:RAMType>
+      </laptop:RAM>
+    </laptop:hasRAM>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage5"/>
+    <laptop:LaptopModel>14a-ca0504TU</laptop:LaptopModel>
+    <laptop:LaptopName>HP Chromebook Celeron Quad Core</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop70">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU16"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor22"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM8"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>FX577ZE-HN056W</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS TUF Gaming F15 Core i7 12th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Gaming Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop97">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU39">
+        <laptop:GPUName>Intel Integrated HD</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS>
+      <laptop:OS rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS6">
+        <laptop:OSName>DOS</laptop:OSName>
+      </laptop:OS>
+    </laptop:hasOS>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor49">
+        <laptop:ProcessorBrand>Intel</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Core i3 Intel i3 1115G4</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM3"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage3"/>
+    <laptop:LaptopModel>P1511CEA-BQ1758</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS ExpertBook Core i3 11th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Business Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop20">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand4"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU16"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor16">
+        <laptop:ProcessorBrand>Intel</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Core i7 11800H</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM2"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>G15-5511 SE</laptop:LaptopModel>
+    <laptop:LaptopName>DELL G15 Core i7 11th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Gaming Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop19">
+    <laptop:hasBrand>
+      <laptop:Brand rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand6">
+        <laptop:BrandName>realme</laptop:BrandName>
+      </laptop:Brand>
+    </laptop:hasBrand>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU10"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor18">
+        <laptop:ProcessorBrand>Intel</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Core i5 11320H</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM5"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>CloudPro002</laptop:LaptopModel>
+    <laptop:LaptopName>realme Book Prime Core i5 11th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop52">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand2"/>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU26">
+        <laptop:GPUName>AMD Radeon AMD</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor33">
+        <laptop:ProcessorBrand>AMD</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Ryzen 7 Octa Core 5825U</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM2"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>14-EC1008AU</laptop:LaptopModel>
+    <laptop:LaptopName>HP Pavilion Ryzen 7 Octa Core 5825U</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop84">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU23"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor32"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>X515JA-BQ322WS</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS VivoBook 15 (2021) Core i3 10th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop92">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand2"/>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU36">
+        <laptop:GPUName>NVIDIA GeForce RTX RTX 3050</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS>
+      <laptop:OS rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS4">
+        <laptop:OSName>Windows 11 Pro</laptop:OSName>
+      </laptop:OS>
+    </laptop:hasOS>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor16"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM2"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage1"/>
+    <laptop:LaptopModel>15-ep1085TX</laptop:LaptopModel>
+    <laptop:LaptopName>HP Envy Core i7 11th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop37">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU10"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor11"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM2"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>K413EA-EB522WS</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS Core i5 11th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop40">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand4"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU2"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor21">
+        <laptop:ProcessorBrand>Intel</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Core i5 12500H</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM8"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>G15-5520</laptop:LaptopModel>
+    <laptop:LaptopName>DELL G15 Core i5 12th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Gaming Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop38">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU23"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor29">
+        <laptop:ProcessorBrand>Intel</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Core i5 1035G1</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>X515JA-BQ521WS</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS VivoBook 15 (2021) Core i5 10th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop8">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand3"/>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU6">
+        <laptop:GPUName>AMD Radeon Integrated AMD Radeon™ Graphics</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor7">
+        <laptop:ProcessorBrand>AMD</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Ryzen 7 Octa Core R7-5700U</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM2"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage1"/>
+    <laptop:LaptopModel>13ALC6</laptop:LaptopModel>
+    <laptop:LaptopName>Lenovo Yoga 6 Ryzen 7 Octa Core R</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18000000</laptop:LaptopPrice>
+    <laptop:LaptopType>2 in 1 Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop69">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand4"/>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU34">
+        <laptop:GPUName>NVIDIA GeForce RTX 3050Ti</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS2"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor35"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM2"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>G15-5511</laptop:LaptopModel>
+    <laptop:LaptopName>DELL G15 Core i5 11th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Gaming Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop82">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU23"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor45"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM3"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage3"/>
+    <laptop:LaptopModel>X515MA-BR011W</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS VivoBook 15 (2022) Celeron Quad Core</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop27">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU4">
+        <laptop:GPUName>Intel Integrated Iris Xe Graphics</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor21"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM2"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>S3402ZA-KM502WS</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS Vivobook S14 OLED (2022) Intel EVO Core i5 12th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop28">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU10"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor24">
+        <laptop:ProcessorBrand>Intel</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Core i7 1260P</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM7"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>UX3402ZA-KM731WS</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS Zenbook 14 OLED (2022) Intel EVO Core i7 12th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop43">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand4"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU2"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor31"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM2"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>G15-5511</laptop:LaptopModel>
+    <laptop:LaptopName>DELL Core i5 11th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Gaming Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop71">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand4"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU2"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor2"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM2"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>G15-5515</laptop:LaptopModel>
+    <laptop:LaptopName>DELL Ryzen 7 Octa Core 5800H</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Gaming Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop47">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand8"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU10"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor11"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>A515-56</laptop:LaptopModel>
+    <laptop:LaptopName>acer Aspire 5 Core i5 11th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop67">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU32">
+        <laptop:GPUName>AMD Radeon RTX3050- 4GB</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor28"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM2"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>G513IC-HN023WS</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS Ryzen 7 Quad Core 10th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Gaming Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop78">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU8"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor43"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM3"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage4"/>
+    <laptop:LaptopModel>BR1100FKA-BP1104W</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS Celeron Dual Core</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop25">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU10"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor23">
+        <laptop:ProcessorBrand>Intel</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Core i5 1240P</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM7"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>UX3402ZA-KM531WS</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS Zenbook 14 OLED (2022) Intel EVO Core i5 12th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop24">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU10"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor22"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM2"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>S3402ZA-KM702WS</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS Vivobook S14 OLED (2022) Intel EVO Core i7 12th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop81">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU9"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor44">
+        <laptop:ProcessorBrand>AMD</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Ryzen 7 Octa Core 5700U</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM2"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>KM513UA-L713WS</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS VivoBook K15 OLED Ryzen 7 Octa Core 5700U</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop35">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU21">
+        <laptop:GPUName>Intel Integrated Intel HD Graphics</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS3"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor4"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage3"/>
+    <laptop:LaptopModel>K513EA-L501TS</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS Core i5 11th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop62">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand2"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU16"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor22"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM8"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage1"/>
+    <laptop:LaptopModel>16-B1351TX</laptop:LaptopModel>
+    <laptop:LaptopName>HP OMEN Core i7 12th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop89">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand2"/>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU24">
+        <laptop:GPUName>NVIDIA GeForce RTX 3060</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS4"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor47">
+        <laptop:ProcessorBrand>Intel</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Core i9 11900H</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM>
+      <laptop:RAM rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM10">
+        <laptop:RAMSize>32 GB</laptop:RAMSize>
+        <laptop:RAMType>DDR4</laptop:RAMType>
+      </laptop:RAM>
+    </laptop:hasRAM>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage1"/>
+    <laptop:LaptopModel>15-ep1087TX</laptop:LaptopModel>
+    <laptop:LaptopName>HP Envy Core i9 11th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop23">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU4"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor21"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM2"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>S3402ZA-KM501WS</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS Vivobook S14 OLED (2022) Intel EVO Core i5 12th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop91">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand2"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU8"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS5"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor20"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM11"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage5"/>
+    <laptop:LaptopModel>14a-ca0506TU</laptop:LaptopModel>
+    <laptop:LaptopName>HP Chromebook Celeron Dual Core</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop64">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU30">
+        <laptop:GPUName>AMD Radeon</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor38">
+        <laptop:ProcessorBrand>AMD</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Ryzen 5 Quad Core </laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>M515DA-BQ512WS</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS Ryzen 5 Quad Core 3rd Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop32">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU18">
+        <laptop:GPUName>NVIDIA GeForce RTX 3050 rts</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS3"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor26">
+        <laptop:ProcessorBrand>AMD</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Ryzen 7 Hexa Core </laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>FA506IC-HN005T</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS Ryzen 7 Hexa Core 10th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Gaming Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop2">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU1"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor1"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM1"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage1"/>
+    <laptop:LaptopModel>G533ZW-LN136WS</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS ROG Strix SCAR 15 Core i9 12th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Gaming Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop80">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU4"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor11"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM9"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>TP470EA-EC512WS</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS VivoBook Flip 14 Core i5 11th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12000000</laptop:LaptopPrice>
+    <laptop:LaptopType>2 in 1 Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop45">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand4"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU16"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor22"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM8"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>G15-5520</laptop:LaptopModel>
+    <laptop:LaptopName>DELL G15 Core i7 12th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Gaming Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop51">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand2"/>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU25">
+        <laptop:GPUName>NVIDIA GeForce MX450</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor11"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>15s-du3519TX</laptop:LaptopModel>
+    <laptop:LaptopName>HP Core i5 11th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop10">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand4"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU8"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor9">
+        <laptop:ProcessorBrand>Intel</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Pentium Silver N5030</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage3"/>
+    <laptop:LaptopModel>Inspiron 3521</laptop:LaptopModel>
+    <laptop:LaptopName>DELL Inspiron Pentium Silver</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Notebook</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop66">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU31">
+        <laptop:GPUName>Intel Integrated INTEL HD</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor4"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage3"/>
+    <laptop:LaptopModel>K513EA-L501WS</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS Core i5 11th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop41">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand4"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU24"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor22"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM8"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>G15-5520</laptop:LaptopModel>
+    <laptop:LaptopName>DELL G15 Core i7 12th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Gaming Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop60">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand8"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU16"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor36">
+        <laptop:ProcessorBrand>Intel</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Core i7 12500H</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM2"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>AN515-58</laptop:LaptopModel>
+    <laptop:LaptopName>acer Nitro 5 Core i7 12th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Gaming Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop61">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand2"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU16"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS3"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor19"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>15-EC2048AX</laptop:LaptopModel>
+    <laptop:LaptopName>HP Pavilion Gaming Ryzen 5 Hexa Core 5600H</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Gaming Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop96">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU38">
+        <laptop:GPUName>AMD Radeon Radeon RX Vega 10 Graphics</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor48">
+        <laptop:ProcessorBrand>AMD</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Ryzen 7 Quad Core AMD R7-3700U</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM2"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>M515DA-BQ722WS</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS Vivobook 15 Ryzen 7 Quad Core AMD R</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop30">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU10"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor21"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM7"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>UX5401ZAS-KN521WS</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS Zenbook 14X (2022) Space edition Intel EVO Core i5 12th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop31">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand4"/>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU17">
+        <laptop:GPUName>AMD Radeon Vega 8</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor25">
+        <laptop:ProcessorBrand>AMD</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Ryzen 5 Quad Core 3450U</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage3"/>
+    <laptop:LaptopModel>Vostro 3405</laptop:LaptopModel>
+    <laptop:LaptopName>DELL Vostro 3405 Ryzen 5 Quad Core 3450U</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop29">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU4"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor22"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM2"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>S3402ZA-KM701WS</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS Vivobook S14 OLED (2022) Intel EVO Core i7 12th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop74">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU17"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor42">
+        <laptop:ProcessorBrand>AMD</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Ryzen 5 Quad Core 3500U</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>M415DA-EB712WS</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS VivoBook 14 (2021) Ryzen 5 Quad Core 3500U</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop50">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU20"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor4"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM2"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>K513EA-L513WS</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS Core i5 11th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop76">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU23"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor29"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage5"/>
+    <laptop:LaptopModel>X515JA-BQ501W</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS VivoBook 15 (2021) Core i5 10th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop17">
+    <laptop:hasBrand>
+      <laptop:Brand rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand5">
+        <laptop:BrandName>MSI</laptop:BrandName>
+      </laptop:Brand>
+    </laptop:hasBrand>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU14">
+        <laptop:GPUName>NVIDIA GeForce RTX 3070</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS3"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor16"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM2"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage1"/>
+    <laptop:LaptopModel>GP66 Leopard 11UG</laptop:LaptopModel>
+    <laptop:LaptopName>MSI GP66 Leopard Core i7 11th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">31000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Gaming Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop65">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand4"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU23"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor39">
+        <laptop:ProcessorBrand>Intel</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Pentium Quad Core N5030</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage3"/>
+    <laptop:LaptopModel>Inspiron 3521</laptop:LaptopModel>
+    <laptop:LaptopName>DELL Inspiron Pentium Quad Core</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop53">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand2"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU26"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor34"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM2"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>14-EC1019AU</laptop:LaptopModel>
+    <laptop:LaptopName>HP Pavilion Ryzen 5 Hexa Core 5625U</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop79">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU9"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor44"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM2"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>KM513UA-L711WS</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS VivoBook K15 OLED Ryzen 7 Octa Core 5700U</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop21">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand4"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU2"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor19"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>G15-5515</laptop:LaptopModel>
+    <laptop:LaptopName>DELL Ryzen 5 Hexa Core 5600H</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Gaming Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop56">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand8"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU28"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor20"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM3"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage4"/>
+    <laptop:LaptopModel>TMB311-31</laptop:LaptopModel>
+    <laptop:LaptopName>acer Celeron Dual Core</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Notebook</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop58">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU23"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor20"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM3"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage3"/>
+    <laptop:LaptopModel>X415MA-BV011W</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS VivoBook 14 (2021) Celeron Dual Core</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop15">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU>
+      <laptop:GPU rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU13">
+        <laptop:GPUName>AMD Radeon amd redeon</laptop:GPUName>
+      </laptop:GPU>
+    </laptop:hasGPU>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor14">
+        <laptop:ProcessorBrand>AMD</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Ryzen 3 Quad Core </laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage3"/>
+    <laptop:LaptopModel>M515DA-BR322WS</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS Ryzen 3 Quad Core 3rd Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop39">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand4"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU24"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor22"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM8"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage1"/>
+    <laptop:LaptopModel>G15-5521 SE</laptop:LaptopModel>
+    <laptop:LaptopName>DELL G15 Core i7 12th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Gaming Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop16">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand1"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU7"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS3"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor15">
+        <laptop:ProcessorBrand>AMD</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Ryzen 9 Octa Core Ryzen 9 5900HS</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM>
+      <laptop:RAM rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM6">
+        <laptop:RAMSize>32 GB</laptop:RAMSize>
+        <laptop:RAMType>LPDDR4X</laptop:RAMType>
+      </laptop:RAM>
+    </laptop:hasRAM>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage1"/>
+    <laptop:LaptopModel>GV301QH-K6461TS</laptop:LaptopModel>
+    <laptop:LaptopName>ASUS ROG Flow X13 (2021) Ryzen 9 Octa Core Ryzen 9 5900HS 5th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25000000</laptop:LaptopPrice>
+    <laptop:LaptopType>2 in 1 Gaming Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop59">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand8"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU10"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor11"/>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM4"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>A315-58</laptop:LaptopModel>
+    <laptop:LaptopName>acer Aspire 3 Core i5 11th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+  <laptop:Laptop rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Laptop6">
+    <laptop:hasBrand rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Brand3"/>
+    <laptop:hasGPU rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#GPU4"/>
+    <laptop:hasOS rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#OS1"/>
+    <laptop:hasProcessor>
+      <laptop:Processor rdf:about="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Processor5">
+        <laptop:ProcessorBrand>Intel</laptop:ProcessorBrand>
+        <laptop:ProcessorName>Core i7 i5 1135G7</laptop:ProcessorName>
+      </laptop:Processor>
+    </laptop:hasProcessor>
+    <laptop:hasRAM rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#RAM2"/>
+    <laptop:hasStorage rdf:resource="http://www.semanticweb.org/athal/ontologies/2024/4/laptop#Storage2"/>
+    <laptop:LaptopModel>14ITL05</laptop:LaptopModel>
+    <laptop:LaptopName>Lenovo Yoga Slim 7 Core i7 11th Gen</laptop:LaptopName>
+    <laptop:LaptopPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15000000</laptop:LaptopPrice>
+    <laptop:LaptopType>Thin and Light Laptop</laptop:LaptopType>
+  </laptop:Laptop>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
